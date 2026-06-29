@@ -9481,6 +9481,13 @@
         android:protectionLevel="signature"
         android:featureFlag="android.permission.flags.content_restriction_role_enabled" />
 
+    <!--
+         android.permission.APP_DATA_BACKUP.
+         @hide
+    -->
+    <permission android:name="android.permission.APP_DATA_RESTORE"
+                android:protectionLevel="signature|privileged" />
+
     <!-- Attribution for Geofencing service. -->
     <attribution android:tag="GeofencingService" android:label="@string/geofencing_service"/>
     <!-- Attribution for Country Detector. -->
